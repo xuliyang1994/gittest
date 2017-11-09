@@ -1,0 +1,46 @@
+@charset "utf-8";
+/**
+* 功能：未定义
+* 开发者：徐丽洋
+* 最后修改日期：2017/11/9
+**/
+/*************************************/
+/* 样式初始化部分 */
+/*************************************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+
+    color: black;
+}
+li{
+    list-style: none;
+}
+.fz16{
+    font-size: 16px;
+}
+.fz25{
+    font-size: 25px;
+}
+.footer ul{
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    background: rgb(253, 253, 252);
+    border-top: 1px solid #b3b3b3;
+    margin-bottom: 0;
+}
+.footer ul li{
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 5px;
+}
+.footer ul li span,.footer ul li a{
+    display: inline-block;
+    width: 100%;
+}
